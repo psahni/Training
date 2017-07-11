@@ -1,0 +1,23 @@
+* How to run this project
+
+1. Install Node
+
+2.  Go to command line.
+
+	npm install connect --save
+
+3. npm install serve-static --save
+
+4. Go to localhost:8080
+
+
+# Questions of the session
+
+	-	Using return with onsubmit
+		https://stackoverflow.com/questions/5195933/with-form-validation-why-onsubmit-return-functionname-instead-of-onsubmit
+	
+		https://www.irt.org/script/155.htm
+		
+		https://stackoverflow.com/questions/7814949/javascript-onclick-return-functionality
+		
+		This basically done to manually handle the form submission or any other event handling inside html.

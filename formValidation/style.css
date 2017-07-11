@@ -1,0 +1,45 @@
+ body{
+   background-color: whitesmoke;
+   font-size: 18px;
+ }
+
+ h1{
+   text-align: center;
+   color: green;
+ }
+
+ #container {
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+
+label {
+  width: 150px;
+  float: left;
+}
+
+.block {
+  padding: 10px;
+}
+
+.block input{
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.block input[type="text"], input[type="password"] {
+  width: 300px;
+}
+
+#validations {
+  display: none;
+  color: red;
+  border: 2px solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}

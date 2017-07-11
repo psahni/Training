@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>JAVASCRIPT FORM VALIDATION</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <div id="container">
+      <h1>Registration Form</h1>
+      <div id='validations'>
+      </div>
+      <form id="myForm" onsubmit="return handleSubmit();">
+        <div class="block">
+          <label for="">Name:</label>
+          <input type="text" name="name">
+          <span class='error' id="name_error"></span>
+        </div>
+        <div class="block">
+          <label for="">Email:</label>
+          <input type="text" name="email">
+          <span class='error' id="email_error"></span>
+        </div>
+        <div class="block">
+          <label for="">Password:</label>
+          <input type="password" name="password">
+        </div>
+        <div class="block">
+          <label for="">Confirm Password:</label>
+          <input type="password" name="confirm_password">
+        </div>
+        <div class="block">
+          <input type='checkbox' name='t_and_c'/> Accept Terms and Conditions
+        </div>
+        <div class="block">
+          <input type="submit" name="submitMyFormButton" value="Sign Up">
+        </div>
+      </form>
+    </div>
+    <div id="info"></div>
+     <script src="./app.js"></script>
+  </body>
+</html>
