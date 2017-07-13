@@ -1,7 +1,7 @@
 
 * Lexical Scope.
 
-``javascript
+```javascript
 function greet(whattosay) {
   return function(name) {
     console.log(whattosay + ' ' + name);
@@ -10,9 +10,9 @@ function greet(whattosay) {
 
 var sayHi = greet('Hi'); // Global Execution Context
 sayHi('Prashant');
-``
+```
 
-``javascript
+```javascript
   function sendRequest() {
     var requestId = '123';
 
@@ -23,9 +23,9 @@ sayHi('Prashant');
       }
     })
   }
-``
+```
 
-``javascript
+```javascript
 var arr = []
 function makeFunctions() {
  for(i=0; i<3; i++){
@@ -34,7 +34,7 @@ function makeFunctions() {
 };
 ``
 
-``javascript
+```javascript
 var arr = []
 function makeFunctions() {
  for(i=0; i<3; i++){
@@ -43,7 +43,7 @@ function makeFunctions() {
   })(i)
  }
 };
-``
+```
 
 # REF
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
