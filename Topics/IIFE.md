@@ -10,11 +10,12 @@ var greeting = function(name) {
 
 
 * Make this IIFE
+```js
 
 function(name){
  return "hello" +  name
 }
-
+```
 * You are creating this function on the fly, any thing inside the parenthesis is an expression.
 
 
