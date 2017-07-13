@@ -32,7 +32,7 @@ function makeFunctions() {
     arr[i] = function() { return i };
  }
 };
-``
+```
 
 ```javascript
 var arr = []
