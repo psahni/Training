@@ -2,11 +2,11 @@
 * function statement
 * function expression
 *
-``js
+```js
 var greeting = function(name) {
   return "Hello " +  name;
 }();
-``
+```
 
 
 * Make this IIFE
@@ -20,7 +20,7 @@ function(name){
 
 Example:-
 
-``js
+```js
 In Main.js
 
 var thing = {
@@ -42,4 +42,4 @@ The thing object in global scope will be corrupted. Becz other.js is loaded afte
   console.log(thing);
 })();
 
-``
+```
