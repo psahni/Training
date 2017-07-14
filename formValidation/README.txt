@@ -28,3 +28,16 @@ https://reqres.in/
 
 TRANSFORMING DATA IN POST REQUEST
 https://stackoverflow.com/questions/24710503/how-do-i-post-urlencoded-form-data-with-http-in-angularjs
+
+
+SEND POST REQUEST
+
+
+var xhr = new XMLHttpRequest();
+xhr.open('POST', 'https://reqres.in/api/users', true);
+xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xhr.onload = function () {
+    // do something to response
+    console.log( "response = ", JSON.parse(this.responseText));
+};
+xhr.send(JSON.stringify(data));
