@@ -14,12 +14,14 @@
 
 # Questions of the session
 
-	-	Using return with onsubmit
-		https://stackoverflow.com/questions/5195933/with-form-validation-why-onsubmit-return-functionname-instead-of-onsubmit
+-	Using return with onsubmit
+https://stackoverflow.com/questions/5195933/with-form-validation-why-onsubmit-return-functionname-instead-of-onsubmit
 
-		https://www.irt.org/script/155.htm
+https://www.irt.org/script/155.htm
 
-		https://stackoverflow.com/questions/7814949/javascript-onclick-return-functionality
+https://stackoverflow.com/questions/7814949/javascript-onclick-return-functionality
 
-		This basically done to manually handle the form submission or any other event handling inside html.
+This basically done to manually handle the form submission or any other event handling inside html.
 
+TEST YOUR API
+https://reqres.in/
