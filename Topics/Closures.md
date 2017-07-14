@@ -47,6 +47,6 @@ function makeFunctions() {
 
 # REF
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
-
+* https://github.com/airbnb/javascript
 
 
