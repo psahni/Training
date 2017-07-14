@@ -25,3 +25,6 @@ This basically done to manually handle the form submission or any other event ha
 
 TEST YOUR API
 https://reqres.in/
+
+TRANSFORMING DATA IN POST REQUEST
+https://stackoverflow.com/questions/24710503/how-do-i-post-urlencoded-form-data-with-http-in-angularjs
