@@ -1,4 +1,4 @@
-Sprint,Available_Points,Available_Bandwidth,Achieved_Hours,Achieved_Points
+Sprint,Estimated_Points,Available_Bandwidth,Bandwidth_Consumed,Achieved_Points
 9.1,30,350,400,25
 9.2,35,400,430,40
 9.3,36,320,405,35
@@ -6,4 +6,3 @@ Sprint,Available_Points,Available_Bandwidth,Achieved_Hours,Achieved_Points
 9.5,43,450,426,40
 9.6,40,340,421,30
 9.7,42,400,399,30
-9.8,37,450,,
